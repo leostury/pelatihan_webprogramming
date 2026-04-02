@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Pendaftaran Pelatihan IT</h1>
+    <h2>BBPVP Bandung</h2>
+    <form action="">
+        <fieldset>
+            <legend>Data Diri Peserta</legend>
+
+            <label for="nalep">Nama Lengkap :</label><br>
+            <input type="text" id="nalep" name="nalep"><br><br>
+            <label for="email">Email :</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="nohp">No Handphone :</label><br>
+            <input type="text" id="nohp" name="nohp"><br><br>
+
+            <label for="gender">Jenis Kelamin :</label><br>
+               <input type="radio" id="male" name="male" value="male">
+              <label for="male">Laki - Laki</label>
+             <input type="radio" id="female" name="female" value="female">
+            <label for="female">Perempuan</label>
+
+        </fieldset>
+    </form><br>
+
+    <form action="">
+        <fieldset>
+            <legend>Program Pelatihan</legend>
+            <label for="program">Pilih Program :</label><br>
+            <select name="program" id="program">
+            <option value="web">Pemrograman web</option>
+            <option value="genAI">Generative AI</option>
+            <option value="mobile">Fashion Ilustrator</option>
+            </select><br><br>
+            <label for="metbelajar">Metode Belajar :</label><br>
+            <input type="checkbox" id="online" name="metbelajar" value="online">
+            <label for="online">Online</label>
+            <input type="checkbox" id="offline" name="metbelajar" value="offline">
+            <label for="offline">Offline</label><br><br>
+
+        </fieldset>
+    </form><br>
+
+    <form action="">
+        <fieldset>
+            <legend>Informasi Tambahan</legend>
+            <label for="alamat">Alamat Lengkap :</label><br>
+            <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea><br><br>
+
+            <label for="uploadCV">Upload CV :</label><br>
+            <input type="file" id="uploadCV" name="uploadCV"><br><br>
+
+            <input type="checkbox" id="setuju" name="setuju" value="setuju">
+            <label for="setuju">Saya menyetujui data yang diisi adalah benar</label><br><br>
+            <input type="submit" value="Daftar">
+            <input type="reset" value="Reset">
+            
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1{
+    color: black;
+    font-size: 2rem;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+main{
+    margin-top: 80px;
+}
+
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    margin-bottom: 20px;
+    color: #00468b;
+    text-align: center;
+}
+
+
+/* #hero {
+    background-image: url('https://csirt.teknokrat.ac.id/wp-content/uploads/2025/07/img_1_6879aae2a6c6e-1752804066.webp');
+    background-size: cover;
+    background-position: center;
+} */
+
+#hero {
+  background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+#hero h1, #attachment h2{ color : #fff; }
+
+code{
+    background-color: #eee;
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: red;
+}
+
+.desc{
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px solid #00468b;
+    text-align: center;
+}
+
+
+#repeat-size {
+    background-image: url('https://www.transparenttexttures.com/patterns/60-lines.png');
+    background-repeat: repeat;
+    background-color: #3498db;
+    background-size: auto;
+}
+
+.size-contain-demo {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 3px solid #fff;
+    background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=600');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2e2e50;
+
+}
+
+#position {
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: right bottom;
+}
+
+#attachment {
+    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600');
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+#attachment .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
