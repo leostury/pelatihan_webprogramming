@@ -1,0 +1,2 @@
+const datapeserta = ["jhon", "laki-laki", "programmer", "30"];
+console.log("Hallo, nama " + datapeserta[0] + "Saya " + datapeserta[0] + " umur " + datapeserta[3] + " tahun, saya seorang " + datapeserta[2]);
