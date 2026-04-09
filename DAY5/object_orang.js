@@ -13,9 +13,6 @@ let orang = {
         console.log()
     }
 
-
-
-
 }
 
 console.log(`Energi kamu saat ini adalah : ${orang.energi}`);
@@ -41,7 +38,6 @@ function buatOrang(nama, energi){
 }
 
 let nida = buatOrang("Nida", 70);
-
 nida.makan(1);
 
 function Orang(nama, energi){
