@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input">
+    <button>Tambah</button>
+    <ul id="list"></ul>
+
+    <script>
+        const tombol = document.querySelector("button");
+        const list = document.getElementById("list");
+        const input = document.getElementById("input");
+
+        tombol.addEventListener("click", function(){
+            const nilai = input.value;
+            
+            if (nilai === "") return;
+
+            const listbaru = document.createElement("li");
+            listbaru.innerText = input.value;
+
+            list.appendChild(listbaru);
+
+            input.value = "";
+        });
+
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="nama">
+    <button>Kirim</button>
+    <p id="pesan"></p>
+
+    <script>
+        const input = document.getElementById("nama");
+        const button = document.querySelector("button");
+        const pesan = document.getElementById("pesan");
+
+        button.addEventListener("click", function(){
+            const nilai = input.value;
+
+            if (nilai === ""){
+                pesan.textContent = "Nama tidak boleh kosong";
+            } else {
+                pesan.textContent = "Hallo " + nilai;
+            }
+        });
+    </script>
+</body>
+</html>

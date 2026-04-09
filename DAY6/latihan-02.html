@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=y, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="list">
+        <li class="baris">Item 1</li>
+        <li class="baris">Item 2</li>
+        <li class="baris">Item 3</li>
+    </ul>
+
+    <button>click</button>
+
+    <script>
+        const tombol = document.querySelector("button");
+        const baris = document.querySelectorAll(".baris");
+
+        tombol.addEventListener("click", function(){
+            for (const li of list){
+                li.textContent = "Item ini sudah di buah"
+            }
+        });
+            
+    </script>
+</body>
+</html>

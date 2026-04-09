@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="teks">Klik saya</p>
+
+    <style>
+        .active {
+            color : red;
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        const text = document.getElementById("teks");
+
+        text.addEventListener("click", function(){
+            text.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
